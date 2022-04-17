@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  height: 50vh;
+  background: url("../img/largeImg.jpg") center/cover;
+}
+
+/* HEADER MENU */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+nav ul {
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #023362;
+}
+
+/* MAIN */
+
+main {
+  padding: 1rem;
+  background-color: lightgoldenrodyellow;
+  color: #023362;
+}
+
+/* 
+    Z-INDEX 
+    The z-index property specifies the stack order of an element.
+    An element with greater stack order is always in front of an element with a lower stack order.
+    IMPORTANT: z-index only works on positioned elements
+*/
+
+.parent {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  background-color: lightgreen;
+}
+
+.box1 {
+  position: absolute;
+  background-color: chocolate;
+  padding: 2rem;
+  z-index: 2;
+}
+
+.box2 {
+  position: absolute;
+  background-color: crimson;
+  padding: 2rem;
+  bottom: 50px;
+  left: 50px;
+}
+
+/* COOKIE */
+
+.cookieConsent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: rgb(54, 48, 48);
+  color: white;
+  padding: 1rem;
+}
+
+button {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}

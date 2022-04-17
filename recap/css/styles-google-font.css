@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+
+.roboto100 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.roboto300 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.roboto700 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
